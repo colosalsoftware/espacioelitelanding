@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css"> <!-- Asegúrate de que styles.css esté en el mismo nivel que images -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Nosotros</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="height: 100px; background-color: #e1e1e1;">
+        <a class="navbar-brand" href="inicio.html"><img src="images/logo_largo.png" alt="Logo Espacio Elite" id="logolargo" class="logo-icon" style="width:250px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+            <span class="navbar-toggler-icon" style="background-color: white;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">PROPIEDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Modal para el menú en dispositivos pequeños -->
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menuModalLabel">Menú</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inicio.html">PROPIEDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade custom-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="8000">
+                <img src="images/banner/img4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <img src="images/banner/img2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <img src="images/banner/img3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <img src="images/banner/img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <img src="images/banner/img5.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Sección de texto -->
+    <div class="container-fluid nosotros-section" style="background-color: #000000;">
+        <div class="row">
+            <div class="col-md-12 p-5 text-column">
+                <h1 class="title text-center" style="font-family: 'Times New Roman', serif; color: #FFD700; font-size: 4rem;">QUIENES SOMOS</h1>
+                <p id="textoabout" class="content text-white" style="font-family: 'Montserrat', sans-serif; text-align: center;">
+                    Bienvenido a ESPACIO ELITE, donde la exclusividad y la excelencia se unen para brindarte las mejores oportunidades en bienes raíces.
+                    <br><br>
+                    Somos una agencia inmobiliaria de élite en Cartagena, dedicada a ofrecer un servicio personalizado y sofisticado para satisfacer todas tus necesidades. Nuestro equipo de expertos te guiará en cada paso del proceso, garantizando que encuentres la propiedad de tus sueños o la opción de arrendamiento perfecta. Con una cartera única de propiedades seleccionadas, te invitamos a experimentar un estilo de vida inigualable en el encantador escenario del Caribe. Únete a nuestra distinguida comunidad y descubre por qué ESPACIO ELITE es tu mejor opción para invertir y vivir en esta deslumbrante ciudad costera.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section id="Contacto" class="contacto-section" style="background-image: url('images/contacto/foto_contacto.png');">
+        <div class="container-fluid">
+            <div class="row">
+                <h3 style="width: 70%; margin-left: 15%; margin-top: 50px; display: flex; justify-content: center; color: #fae871; padding: 15px; font-size: 80px;">Contacto<BR></h3>
+                <div class="col-lg-6 col-md-12">
+                    <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: white;">Escanea y</h3>
+                    <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: #fae871;">chatea</h3>
+                    <br>
+                    <img src="images/contacto/qrcontacto.png" style="margin-left: 30%; width: 40%;">
+                    <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: white;"><br>Cartagena, Colombia.</h3>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: #fae871;">Enviar Mensaje Directo</h3>
+                    <p style="font-size: 22px; padding: 80px; text-align: justify; color: white;">
+                        ¡Querido cliente de Espacio Elite! ¿Tienes alguna pregunta o comentario? Escríbenos a nuestro WhatsApp para una atención rápida y personalizada. ¡Estamos aquí para ayudarte!
+                    </p>
+                    <div style="display: flex; justify-content: center;">
+                        <a href="https://wa.link/2kqi4d" style="font-size: 24px; text-align: center; background-color: #25D366; text-decoration: none; color: white; width: 150px; height: 40px; border-radius: 10px;">WhatsApp</a>
+                    </div>
+                    <h6 style="margin-left: 25%; margin-top: 30px; width: 50%; text-align: center; justify-content: center; color: white;">Diseñado y Desarrollado por:<br> <a href="https://colosalsoftware.com/" style="text-decoration: none; color: #fae871;">COLOSAL SOFTWARE & DESARROLLO</a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Abrir modal al hacer clic en el botón del menú
+        document.querySelector('.navbar-toggler').addEventListener('click', function () {
+            $('#menuModal').modal('show');
+        });
+    </script>
+</body>
+</html>

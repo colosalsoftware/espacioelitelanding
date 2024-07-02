@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Detalles de la Propiedad</title>
+    <style>
+        .logo-icon {
+            max-width: 250px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="height: 100px; background-color: #e1e1e1;">
+    <a class="navbar-brand" href="inicio.html"><img src="images/logo_largo.png" alt="Logo Espacio Elite" id="logolargo" class="logo-icon"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+        <span class="navbar-toggler-icon" style="background-color: white;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="inicio.html">PROPIEDADES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contacto">CONTACTO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid" style="background-color: black;">
+    <div class="row">
+        <div class="col-md-3 detalle-propiedad" style="background-color: black; padding: 15px; text-align: center; justify-content: center;">
+            <h4 style="color: #FCE88D;">Nombre de la Propiedad</h4>
+            <p style="color: white;">Explora los encantos ocultos de esta exclusiva propiedad en la sección de detalles. Tu próximo hogar te espera.</p>
+            <br>
+            <a class="nav-link-filter" href="#info" style="color: white; padding: 5px; font-size: 18px; border: solid; border-color: #FCE88D; justify-content: center; text-align: center;">Más acerca de esta propiedad</a>
+        </div>
+        <div class="col-md-9 detalle-propiedad" style="margin: 0px; padding: 0px;">
+            <div class="galeria-imagenes">
+                <div class="slider">
+                    <img src="images/property1.jpg" alt="Property Image" style="margin-right: 2px;"/>
+                    <img src="images/property2.jpg" alt="Property Image" style="margin-right: 2px;"/>
+                    <!-- Agrega más imágenes aquí -->
+                </div>
+            </div>
+        </div>      
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: white;">
+    <div class="row">
+        <div class="col-md-8 detalle-propiedad esesta" style="justify-content: center; overflow: hidden; height: 502px; margin-bottom: 5px; margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px;">
+            <div style="height: 100%; display: flex; align-items: center;">
+                <img src="images/property1.jpg" alt="Selected Image" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+        <div class="col-md-4 detalle-propiedad" style="margin: 0px; padding: 0px; padding-left: 6px;">
+            <iframe width="100%" height="248px" src="https://www.youtube.com/embed/video_id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="248px" style="border:0;" src="https://maps.google.com/maps?q=location" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: white; padding-top: 8px;">
+    <div class="container-fluid" id="info" style="vertical-align: bottom; background-color: #bdbfc1; border-top-right-radius: 25px; border-top-left-radius: 25px; margin-bottom: 15px;">
+        <a id="mostrarInteriores" style="border: none; color: black; text-decoration: none; width: 100%; text-align: center;"><h2 style="padding: 14px; font-family: Tahoma;">GENERAL</h2></a>
+        <div class="row" id="interiores" style="display: none; background-color: #e6e6e6; padding: 20px;">
+            <div class="col-md-3"><p>Ubicado en <b>Localidad</b></p></div>
+            <div class="col-md-3"><p>Área: <b>100</b> Mts^2</p></div>
+            <div class="col-md-3"><p>Número de Habitaciones: <b>3</b></p></div>
+            <div class="col-md-3"><p>Número de Baños: <b>2</b></p></div>
+            <div class="col-md-3"><p>Tiene Comedor: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Sala: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Cocina Integral: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Balcón o Terraza: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Zona de Trabajo: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Estudio: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Wifi: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Aire Acondicionado: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Agua Caliente: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Detector de Humo: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Cámaras de Seguridad: <b>Sí</b></p></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="vertical-align: bottom; background-color: #bdbfc1; border-top-right-radius: 25px; border-top-left-radius: 25px; margin-bottom: 15px;">
+        <a id="mostrarExteriores" style="border: none; color: black; text-decoration: none; width: 100%; text-align: center;"><h2 style="padding: 14px; font-family: Tahoma;">EXTERIORES</h2></a>
+        <div class="row" id="exteriores" style="display: none; background-color: #e6e6e6; padding: 20px;">
+            <div class="col-md-3"><p>Tiene Portero: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Ascensor: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Piscina: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Gimnasio: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Zonas Verdes: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Área para Mascotas: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Conserje: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Parqueadero para Carro: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Parqueadero para Motocicletas: <b>Sí</b></p></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="vertical-align: bottom; background-color: #bdbfc1; border-top-right-radius: 25px; border-top-left-radius: 25px; margin-bottom: 15px;">
+        <a id="mostrarAmoblado" style="border: none; color: black; text-decoration: none; width: 100%; text-align: center;"><h2 style="padding: 14px; font-family: Tahoma;">¿ES AMOBLADO? <b>Sí</b></h2></a>
+        <div class="row" id="amoblado" style="display: none; background-color: #e6e6e6; padding: 20px;">
+            <div class="col-md-3"><p>Tiene Lava Vajillas: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Horno: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Cafetera: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Microondas: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Platos y Cubiertos: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Nevera o Congelador: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Lavadora: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Secadora: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Plancha de Ropa: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Toallas: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Jabón: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Papel Higiénico: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Tiene Secador de Cabello: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Camas: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Número de Camas: <b>2</b></p></div>
+            <div class="col-md-3"><p>Tiene Sábanas: <b>No</b></p></div>
+            <div class="col-md-3"><p>Tiene Televisor: <b>Sí</b></p></div>
+            <div class="col-md-3"><p>Número de Televisores: <b>1</b></p></div>
+            <div class="col-md-3"><p>Tiene Armario: <b>No</b></p></div>
+            <div class="col-md-3"><p>Número de Armarios: <b>1</b></p></div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="vertical-align: bottom; background-color: #bdbfc1; border-top-right-radius: 25px; border-top-left-radius: 25px; margin-bottom: 15px;">
+        <a id="mostrarConvivencia" style="border: none; color: black; text-decoration: none; width: 100%; text-align: center;"><h2 style="padding: 14px; font-family: Tahoma;">ACERCA DE LA CONVIVENCIA</h2></a>
+        <div class="row" id="convivencia" style="display: none; background-color: #e6e6e6; padding: 20px;">
+            <div class="col-md-4"><p><b>¿Admite Mascotas?: Sí</b></p></div>
+            <div class="col-md-4"><p><b>¿Admite Fumadores?: No</b></p></div>
+            <div class="col-md-4"><p><b>¿Admite Fiestas?: Sí</b></p></div>
+        </div>
+    </div>
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-4">
+                <p style="text-align: center;"><b>¿Por qué este lugar?</b></p>
+                <p style="text-align: justify;">Descripción del porqué este lugar es especial.</p>
+            </div>
+            <div class="col-md-4">
+                <p style="text-align: center;"><b>Acerca del Transporte</b></p>
+                <p style="text-align: justify;">Descripción sobre el transporte disponible.</p>
+            </div>
+            <div class="col-md-4">
+                <p style="text-align: center;"><b>Para Estudiantes</b></p>
+                <p style="text-align: justify;">Descripción sobre la conveniencia para estudiantes.</p>
+            </div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <h1>Precio</h1>
+            <h3 class="precio-inmueble"><b>$500,000 COP</b></h3>
+        </div>
+    </div>
+
+    <div class="text-center" style="margin-top: 20px;">
+        <a class="btn btn-success" style="margin: 0 10px; font-size: 22px; color: white;" id="rentar" href="https://api.whatsapp.com/send?phone=573113014351&text=Hola%20Espacio%20Elite,%20estoy%20muy%20interesado%20en%20la%20propiedad">¡Lo Quiero!</a>
+    </div>
+    <br><br><br>  
+</div>     
+
+<!-- Footer -->
+<section id="Contacto" class="contacto-section" style="background-image: url('images/contacto/foto_contacto.png'); width: 100vw; margin-left: calc(50% - 50vw);">
+    <div class="container-fluid">
+        <div class="row">
+            <h3 style="width: 70%; margin-left: 15%; margin-top: 50px; display: flex; justify-content: center; color: #fae871; padding: 15px; font-size: 80px;">Contacto<BR></h3>
+            <div class="col-lg-6 col-md-12">
+                <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: white;">Escanea y</h3>
+                <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: #fae871;">chatea</h3>
+                <br>
+                <img src="images/contacto/qrcontacto.png" style="margin-left: 30%; width: 40%;">
+                <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: white;"><br>Cartagena, Colombia.</h3>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <h3 style="text-align: center; width: 80%; margin-left: 10%; font-size: 26px; color: #fae871;">Enviar Mensaje Directo</h3>
+                <p style="font-size: 22px; padding: 80px; text-align: justify; color: white;">
+                    ¡Querido cliente de Espacio Elite! ¿Tienes alguna pregunta o comentario? Escríbenos a nuestro WhatsApp para una atención rápida y personalizada. ¡Estamos aquí para ayudarte!
+                </p>
+                <div style="display: flex; justify-content: center;">
+                    <a href="https://wa.link/2kqi4d" style="font-size: 24px; text-align: center; background-color: #25D366; text-decoration: none; color: white; width: 150px; height: 40px; border-radius: 10px;">WhatsApp</a>
+                </div>
+                <h6 style="margin-left: 25%; margin-top: 30px; width: 50%; text-align: center; justify-content: center; color: white;">Diseñado y Desarrollado por:<br> <a href="https://colosalsoftware.com/" style="text-decoration: none; color: #fae871;">COLOSAL SOFTWARE & DESARROLLO</a></h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const galeria = document.querySelector('.galeria-imagenes');
+        const imagenes = galeria.querySelectorAll('img');
+        const imagenSeleccionada = document.querySelector('.esesta img');
+
+        imagenes.forEach((imagen) => {
+            imagen.addEventListener('click', () => {
+                imagenSeleccionada.src = imagen.src;
+            });
+        });
+
+        const mostrarInterioresBtn = document.getElementById("mostrarInteriores");
+        const interioresDiv = document.getElementById("interiores");
+        const mostrarExterioresBtn = document.getElementById("mostrarExteriores");
+        const exterioresDiv = document.getElementById("exteriores");
+        const mostrarAmobladoBtn = document.getElementById("mostrarAmoblado");
+        const amobladoDiv = document.getElementById("amoblado");
+        const mostrarConvivenciaBtn = document.getElementById("mostrarConvivencia");
+        const convivenciaDiv = document.getElementById("convivencia");
+
+        function toggleDisplay(element) {
+            if (element.style.display === "none") {
+                element.style.display = "flex";
+            } else {
+                element.style.display = "none";
+            }
+        }
+
+        mostrarInterioresBtn.addEventListener("click", () => {
+            toggleDisplay(interioresDiv);
+        });
+        mostrarExterioresBtn.addEventListener("click", () => {
+            toggleDisplay(exterioresDiv);
+        });
+        mostrarAmobladoBtn.addEventListener("click", () => {
+            toggleDisplay(amobladoDiv);
+        });
+        mostrarConvivenciaBtn.addEventListener("click", () => {
+            toggleDisplay(convivenciaDiv);
+        });
+    });
+</script>
+
+</body>
+</html>
