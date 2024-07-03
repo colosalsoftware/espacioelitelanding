@@ -439,6 +439,13 @@
                 $('#propertyModal').modal('show');
             });
         });
+        // Abrir modal al hacer clic en "Ver Propiedad"
+        document.querySelectorAll('.ver-propiedad-link').forEach(function (button) {
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                $('#propertyModal2').modal('show');
+            });
+        });
     </script>
 </body>
 </html>
