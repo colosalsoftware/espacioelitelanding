@@ -180,7 +180,7 @@
 }
 
 input[type="range"] {
-  -webkit-appearance: none;
+  
   width: 200px;
   height: 8px;
   background: #d3d3d3;
